@@ -17,7 +17,7 @@ export default function Header() {
         </h1>
       </Link>
   
-      <Link href="https://amankalra.com/mlops/growth-ideas-with-chatgpt">    
+      <Link href="https://amankalra.com/mlops/growth-ideas-with-chatgpt" target="_blank">    
       <p className="text-left font-medium font-italic"> About </p>
       </Link>       
     </header>
