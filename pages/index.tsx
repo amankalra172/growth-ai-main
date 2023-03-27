@@ -80,7 +80,7 @@ const Home: NextPage = () => {
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
         <a
           className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
-          href="https://github.com/amankalra172"
+          href="https://github.com/amankalra172/growth-ai-main"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -119,7 +119,10 @@ const Home: NextPage = () => {
           />
           <div className="flex mb-5 items-center space-x-3">
             <Image src="/2-black.png" width={30} height={30} alt="1 icon" />
-            <p className="text-left font-medium">Choose growth lever</p>
+            <p className="text-left font-medium">Choose growth lever <span className="text-slate-500">
+                (choose one of the below to get relevant ideas)
+              </span>
+              .</p>
           </div>
           <div className="block">
             <DropDown vibe={vibe} setVibe={(newVibe) => setVibe(newVibe)} />
