@@ -7,28 +7,19 @@ export default function Header() {
       <Link href="/" className="flex space-x-3">
         <Image
           alt="header text"
-          src="/writingIcon.png"
+          src="/android-chrome-192x192.png"
           className="sm:w-12 sm:h-12 w-8 h-8"
           width={32}
           height={32}
         />
-        <h1 className="m:text-6xl text-4generatedBiosxl font-bold ml-2 tracking-tight">
+        <h1 className="sm:text-4xl text-2xl font-bold ml-2 tracking-tight">
           Growth Hacks
         </h1>
       </Link>
-      <a
-        href="https://vercel.com/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Image
-          alt="Vercel Icon"
-          src="/vercelLogo.png"
-          className="sm:w-8 sm:h-[27px] w-8 h-[28px]"
-          width={32}
-          height={28}
-        />
-      </a>
+  
+      <Link href="https://www.amankalra.com">    
+      <p className="text-left font-medium font-italic"> About </p>
+      </Link>       
     </header>
   );
 }
