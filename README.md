@@ -22,3 +22,6 @@ npm run dev
 ## Share local 
 
 [Loophole.Cloud](https://loophole.cloud/) allows you to make your Web application public without actually deploying on a cloud service. It provides a user-friendly domain that you can share with your remote users/friends/teammates to try/use your WebApp. What's best, these local tunnedl websites come with an HTTPS certificate. 
+
+---------------------------------------------------------------------------------------
+Special thanks to [Nutlope](https://github.com/Nutlope) for a great course on Vercel edge functions and ChatGPT API!
